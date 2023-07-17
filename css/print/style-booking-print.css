@@ -1,0 +1,28 @@
+@media print {
+   a[href]:after {
+     content: none !important;
+   }
+
+   a{
+        color: black;
+        text-decoration: none !important;
+   }
+
+   .row .invoice-info{
+        width: 100% !important;
+    }
+   .col-sm-3.invoice-col,.col-sm-3.invoice-data,.col-sm-2.invoice-data.basicdata,.col-sm-4.invoice-col{
+        width: 50% !important;
+        float: left !important;
+        border:0px solid red ;
+   }
+    address {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+        font-style: normal !important;
+        line-height: 1.42857143 !important;
+    }
+    .btn {
+      display: none;
+    }
+}

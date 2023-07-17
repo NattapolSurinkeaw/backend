@@ -1,0 +1,126 @@
+  .nav-stacked > li.active > a, .nav-stacked > li.active > a:hover {
+    background: transparent;
+    color: #444;
+    border-top: 0;
+    border-left-color: #391754;
+  }
+  .form-control[disabled] {
+    background-color: #fff;
+    cursor: auto;
+  }
+  .form-horizontal {
+    margin-bottom: 40px;
+  }
+  #image-preview {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ecf0f5;
+    color: #ecf0f1;
+    border: 1px solid #d2d6de;
+  }
+  .nav-stacked > li.active > a, .nav-stacked > li.active > a:hover {
+    background: #1e9dea17;
+    color: #444;
+    border-top: 0;
+    border-left-color: #1e9dea;
+  }
+
+  #siteconfig-box, #webinfo-box {
+    display: none;
+  }
+
+/*------------------- Contact ------------------ */
+  span.blog-message {
+    color: #999999;
+  }
+  .read {
+    background-color: #f9f9f9;
+  }
+  .mailbox-date {
+    float: right;
+  }
+  tr {
+    cursor: pointer;
+  }
+  .mailbox-subject div {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 750px;
+  }
+  @media screen and (max-width: 1700px){
+    .mailbox-subject div {
+      width: 500px;
+    }
+  }
+  @media screen and (max-width: 1300px){
+    .mailbox-subject div {
+      width: 450px;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .mailbox-subject div {
+      width: 350px;
+    }
+  }
+  @media screen and (max-width: 914px){
+    .mailbox-subject div {
+      width: 300px;
+    }
+  }
+  @media screen and (max-width: 780px){
+    .mailbox-subject div {
+      width: 250px;
+    }
+  }
+  @media screen and (max-width: 414px){
+    .mailbox-subject div {
+      width: 280px;
+    }
+  }
+
+  #read-mail {
+    display: none;
+  }
+  .mailbox-read-message {
+    padding: 10px;
+    min-height: 250px;
+    line-height: 24px;
+}
+
+/*------------------- Map ------------------ */
+
+#map_canvas {
+  height: 550px;
+  width: 100%;
+}
+
+input#namePlace {
+  height: 30px;
+  width: 250px;
+  float: left;
+  border: 1px solid transparent;
+  border-right: 0;
+  border-radius: 3px 0 0 3px;
+  padding: 5px 10px;
+  border-color: #d2d6de;
+  outline: none;
+}
+button#SearchPlace {
+  float: left;
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 0 3px 3px 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid transparent;
+  color: #fff;
+  background-color: #282828;
+  border-color: #202020;
+  outline: none;
+}

@@ -1,0 +1,89 @@
+ .toggle-switch {
+    position: relative;
+    height: 25px;
+    width: 60px;
+    background: #ff2b56;
+    border-radius: 20px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .toggle-switch .switch {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    cursor: pointer;
+    left: 5%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .toggle-switch:before {
+    font-family: Monterrat;
+    content: "OFF";
+    width: 100%;
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 45%;
+    color: white;
+  }
+  .toggle-switch.inTables:before { 
+      width: unset;  
+  }
+  
+  .ts-active {
+    background-color: #00d1b2  !important;
+  }
+  
+  .ts-active > .switch {
+    left: 60% !important;
+  }
+  
+  .ts-active:before {
+    content: "ON";
+    left: 10% !important;
+    color: white;
+  }
+
+.kt\:box-shadow{
+  box-shadow: 0 0 10px rgba(0,0,0,0.2) !important;
+  border-radius: 5px !important;
+}
+.kt\:box-header-border-radius{
+  border-radius: 5px 5px 0 0 !important;
+}
+
+
+.kt-checkbox{
+  position: relative;
+  /* background-color: steelblue; */
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+  top: 5px;
+}
+
+.kt-checkbox.checked:after{
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 14px;
+  top: 0px;
+  left: 5px;
+  border: solid #ff2b56;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}

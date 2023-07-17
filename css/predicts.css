@@ -1,0 +1,107 @@
+.page_predicts .box-head-action {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.page_predicts .btn-center {
+    text-align: center;
+}
+.page_predicts label.swal2-checkbox {
+    display:none !important;
+}
+
+.page_predicts .cate-blog-icon {
+
+}
+.page_predicts #image-preview {
+    margin: auto;
+}
+.page_predicts .txt_abbrev {
+    width:150px;
+}
+.page_predicts .btn-center a {
+    width: 80px;
+    margin: 3px 0px;
+}
+.page_predicts .headTitle-prednumb {
+    margin:auto 0px;
+}
+
+.page_predicts .edit_background_color {
+    margin-bottom: 10px;
+    color: white;
+    background: #2a4054;
+}
+
+.page_predicts .edit_background_color i {
+    color: #6ac7ff;
+    padding-right:5px;
+}
+
+.page_predicts  .addCategoryNumb:hover, .page_predicts  .addCategoryNumb:focus {
+    color:white;
+}
+
+
+.page_predicts #predicts-cate-tables.inactive {
+    display: none;
+}
+
+.page_predicts #predicts-numb-tables.inactive {
+    display: none;
+}
+
+.page_predicts .btn-back {
+    color:white;
+}
+.page_predicts .btn-back i { 
+    margin: auto 3px;
+}
+.page_predicts .btn-back.active {
+    border:1px solid #2a4054;
+    background: #2a4054;
+    border-radius: 4px;
+    display: flex;
+    margin: auto 0px;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+.page_predicts .btn-back.active:hover {
+    border: 1px solid #50dada;
+    background: #50dada;
+}
+.page_predicts .btn-back.active:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(0.5px);
+}
+
+.page_predicts .swal-numb textarea {
+    height: 90px;
+}
+.page_predicts #swal2-title { 
+    font-size: 1.5em;
+}
+.page_predicts .title-numb {
+    text-align: start;
+    font-weight: bold;
+}
+.page_predicts .failed {
+    border: 2px solid red;
+}
+.page_predicts .swal2-validation-message {
+    font-weight: bold;
+}
+
+.btn-table-add:hover, .btn-table-add:focus {
+    color:white; 
+    border: 1px solid #80cfff;
+}
+.btn-table-add:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(0.5px);
+}
+
+.page_predicts .swal-prophecy textarea.txt_desc {
+    height: 200px;
+    padding: 7px 10px;
+}

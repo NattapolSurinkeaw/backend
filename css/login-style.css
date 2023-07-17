@@ -1,0 +1,273 @@
+body {
+  font-family: 'Roboto','sans-serif','Oswald';
+  /* background-color: #ecf0f5; */
+  /* background: linear-gradient(45deg, rgba(33, 147, 176,0.8) , rgba(109, 213, 237,0.8)); */
+  background: linear-gradient(45deg, #2d445a , #13263d);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body_admin_login {
+  width: 400px;
+  /* margin: auto; */
+  /* margin-top: 170px; */
+  display: block;
+  background-color: #fff;
+  border-radius: 10px;
+  border-top: 3px solid #006699;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  padding: 30px;
+  position: relative;
+}
+.login_wynn_logo {
+  /* width: 100%;
+  display: block;
+  text-align: center; */
+  width: 120px;
+  height: 120px;
+  line-height: 100px;
+  display: block;
+  text-align: center;
+  position: absolute;
+  /* border: 1px solid #2196F3; */
+  border-radius: 50%;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  background: #20354c;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border: 2px solid rgba(255,255,255,1);
+}
+.login_wynn_logo img {
+  width: 50%;
+}
+.blog_form_login {
+  width: 100%;
+  display: block;
+  padding: 25px 10px 10px 10px;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-top: 1px solid #DDDDDD;
+}
+ul.nav.nav-tabs.editor_pw {
+  width: 100%;
+}
+.blog_form_login input {
+  width: 100%;
+  height: 36px;
+  height: 45px;
+  margin: 7px 0px;
+  margin: 15px 0px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  /* text-transform: uppercase; */
+}
+
+.blog_form_login input:focus{
+  box-shadow: 0 0 10px #16aaff;
+}
+button.bt_login {
+  width: 100%;
+  height: 36px;
+  height: 45px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0;
+  border-radius: 3px;
+  margin: 7px 0px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #006699;
+  /* background-color: #0098ef; */
+  /* transition: all 0.3s ease; */
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.button-forgot{
+  background: #f7b924 !important;
+  color: white !important;
+  height: 40px !important;
+  line-height: 32px !important;
+  border-radius: 5px !important;
+  width: 90% !important;
+  margin: 0 2.5px !important;
+}
+.button-forgot:hover{
+  background: #f3ab06  !important;
+}
+.button-regis{
+  background: #3ac47d !important;
+  color: white !important;
+  height: 40px !important;
+  line-height: 32px !important;
+  border-radius: 5px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.button-regis:hover{
+  background: #3ae48c !important;
+}
+.button-reset{
+  background: #ff3860 !important;
+  color: white !important;
+  height: 40px !important;
+  line-height: 32px !important;
+  border-radius: 5px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.button-reset:hover{
+  background: #ff2b56 !important;
+}
+button.bt_login:hover {
+  background-color: #004567;
+  background-color: #0098ef;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+ul.nav.nav-tabs.editor_pw {
+  width: 100%;
+  border-top: 1px solid #d2d6de;
+  border-bottom: 1px solid #d2d6de;
+  border: 0 !important;
+  margin-top: 20px;
+}
+li.forgot_or_regis {
+  float: left !important;
+  width: 50%;
+  text-align: center;
+}
+li.forgot_or_regis {
+  float: left !important;
+  width: 50%;
+  text-align: center;
+}
+.nav-tabs>li>a {
+  text-transform: capitalize;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: #006699;
+}
+li.forgot_or_regis a {
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 5px 0;
+}
+li.forgot_or_regis a > i {
+  padding-right: 6px;
+}
+.editor_pw>li.active>a, .editor_pw>li.active>a:focus, .editor_pw>li.active>a:hover {
+  color: #F77A0C;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+button.bt-editor-regis {
+  width: 100%;
+  height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0;
+  border-radius: 3px;
+  margin: 7px 0px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #A7A7A7;
+  transition: all 0.3s ease;
+}
+button.bt-editor-regis:hover {
+  background-color: #777777;
+}
+.blog_form_editor_regis {
+  margin-top: 10px;
+}
+
+.text-error {
+  display: none;
+  color: #d50000;
+  padding-left: 5px;
+}
+input.error:focus {
+  outline-color: #d50000;
+}
+.jconfirm .jconfirm-box.jconfirm-type-darkgreen .jconfirm-title-c .jconfirm-icon-c {
+    color: #26a65b !important;
+}
+.jconfirm .jconfirm-box.jconfirm-type-darkgreen {
+    border-top: solid 7px #26a65b;
+    -webkit-animation-name: type-darkgreen;
+    animation-name: type-darkgreen;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-darkgreen {
+    background-color: #26a65b;
+    color: #FFF;
+    text-shadow: none;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-darkgreen:hover {
+  background-color: #008d4c;
+  color: #FFF;
+}
+
+.jconfirm .jconfirm-box.jconfirm-type-darkblue .jconfirm-title-c .jconfirm-icon-c {
+    color: #006699 !important;
+}
+.jconfirm .jconfirm-box.jconfirm-type-darkblue {
+    border-top: solid 7px #006699;
+    -webkit-animation-name: type-darkblue;
+    animation-name: type-darkblue;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-darkblue {
+    background-color: #006699;
+    color: #FFF;
+    text-shadow: none;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-darkblue:hover {
+  background-color: #004567;
+  color: #FFF;
+}
+
+@media(max-width: 768px){
+  body {
+    font-family: 'Roboto','sans-serif','Oswald';
+    background-color: #fff;
+  }
+  .body_admin_login {
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    border-top: none;
+    background-color: rgba(255, 255, 255, 0.71);
+    box-shadow: none;
+    padding: 30px;
+  }
+}
+@media(max-width: 480px){
+  .body_admin_login {
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px;
+  }
+}
+@media(max-width: 370px){ 
+  .body_admin_login {
+    padding: 15px;
+  }
+  li.forgot_or_regis {
+    float: left !important;
+    width: 100%;
+    text-align: left;
+    margin: 5px 0;
+  }
+}

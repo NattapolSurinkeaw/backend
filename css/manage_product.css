@@ -1,0 +1,103 @@
+.page_manage_products .swal-add-product .swal2-modal {
+    position: relative;
+}
+
+.page_manage_products .swal-add-product .swal2-content .swal2-checkbox {
+    display: none!important;
+}
+.page_manage_products .swal-add-product .swal2-content div#swal2-content .swal2-input {
+    display: flex!important;
+ }
+
+.page_manage_products .swal-add-product #swal2-validation-message {
+    position: absolute;
+    top: 135px;
+    right: 40px;
+    font-size: 0.7em;
+    width: 45%;
+    border: 1px solid red;
+    border-radius: 3px;
+ }
+
+ .page_manage_products .my-productcate-style .swal2-modal {
+    position: relative;
+}
+
+.page_manage_products .my-productcate-style .swal2-content .swal2-checkbox {
+    display: none!important;
+}
+.page_manage_products .my-productcate-style .swal2-content div#swal2-content .swal2-input {
+    display: flex!important;
+ }
+ .page_manage_products .ml-left  {
+     display: flex;
+     margin-left: 0;
+ }
+
+.page_manage_products .my-productcate-style #swal2-validation-message {
+    position: absolute;
+    left: 8%;
+    bottom: 66px;
+    font-size: 0.7em;
+    width: 92%;
+    border: 1px solid red;
+ }
+
+ .page_manage_products .my-productcate-style #swal2-content .swal2-input.failed {
+     border: 2px solid red;
+ }
+
+ .page_manage_products .my-productcate-style #image-preview #show-add-img-more {
+    display: none;
+ }
+ .page_manage_products .my-productcate-style #image-preview.active #show-add-img-more {
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+ }
+ 
+ 
+
+ .page_manage_products .cate-blog-icon {
+    display: flex;
+    justify-content: center;
+}
+ 
+.page_manage_products .cate-blog-icon #image-preview {
+    margin:auto;
+
+}
+
+.page_manage_products .cate-blog-icon #image-preview.active label.image-label {
+    display:none;
+}
+.page_manage_products .cate-blog-icon  #image-preview span {
+    width: fit-content;
+    margin: auto;
+    line-height: 50px; 
+}
+.page_manage_products .cate-blog-icon  #image-preview img.preview-img {
+    padding:5px;
+}      
+
+.page_manage_products .my-productcate-style #swal2-content  #swal-input2.txt_abv_cate {
+    width:50%;
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+ 
+.page_manage_products img.preview-img {
+    width: 100%;
+}
+.page_manage_products .swal2-content .form-add-images {
+    width:150px;
+}
+
+.page_manage_products .swal-cate-approve .swal2-checkbox {
+    display: none!important;
+}

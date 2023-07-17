@@ -1,0 +1,155 @@
+.blog-preview-img{
+    /*margin-top: 15px;*/
+}
+.col-img-preview {
+    float: left;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-size: cover;
+}
+.col-img-preview img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* width: 100%; */
+    height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.col-img-preview a{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    color: #353535;
+    z-index: 120;
+    margin-top: 85%;
+    margin-left: 85%;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.25);
+}
+.col-img-preview .img-hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+/*
+* upload image button
+*/
+.image {
+    background: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    /*margin: 1.2rem;*/
+    position: relative;
+    vertical-align: top;
+    width: 150px;
+}
+.image.image-placeholder {
+    width: 23%;
+    height: 150px;
+}
+.image .image-placeholder-text {
+    bottom: 0;
+    color: #008bdb;
+    font-size: 13px;
+    left: 0;
+    line-height: 1.333;
+    margin-bottom: 15%;
+    padding: 0 1rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.image.image-placeholder input[type='file'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 3;
+    cursor: pointer;
+}
+.image .image-wrapper {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 150px;
+    line-height: 1;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    position: relative;
+    /*width: 150px;*/
+}
+.image.image-placeholder .image-wrapper i {
+    font-size: 4rem;
+    line-height: inherit;
+    color: #ccc;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.image.image-placeholder .fileinput-button > span, .image.image-placeholder .image-browse > span {
+    display: none;
+}
+.image .fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    border: solid transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-transform: translate(-300px, 0) scale(4);
+    direction: ltr;
+    cursor: pointer;
+}
+
+#image-preview {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+    border: 1px solid #d2d6de;
+}
+label.image-label {
+    position: absolute;
+    z-index: 0;
+    cursor: pointer;
+    width: 65px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 36px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+#image-preview .fa {
+    font-size: 60px;
+    color: #d2d6de;
+}
+input.exampleInputFile {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*@media only screen and (max-width: 1320px) {
+    [class*="col-img-"] {
+        width: 100%;
+        height: 200px;
+    }
+}*/

@@ -1,0 +1,402 @@
+.btn-order {
+    background: #6a8290;
+}
+.btn-order:hover {
+    background: #6a8290;
+    color: #d7d7d7;
+    cursor: pointer;
+}
+.btn-order.active, .btn-order.active:hover {
+    color: white;
+    background: #009fff;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+     cursor: default;
+}
+
+#purchase-grid_wrapper .details_seach {
+    cursor:pointer; 
+}
+ 
+#purchase-grid_wrapper .btn-search {
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+}
+.my-purchase-style {
+    padding: unset;
+    font-family: 'ThaiSansNeue','Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.my-purchase-style .purchase-blog {
+    padding: 1.25em;
+    padding-bottom: unset;
+}
+.my-purchase-style .purchase-head {
+    background: #172c45;
+    height: 40px;
+    color:white;
+    text-align:start;
+    padding:0px 10px;
+    font-weight: bold;
+}
+.my-purchase-style .purchase-head p {
+    margin: unset;
+    padding: 10px 0px;
+    font-size: 1.6em;
+    
+}
+.my-purchase-style .blog-title { 
+    font-weight: bold;
+    font-size:1.3em;
+    text-align: left;
+}
+.my-purchase-style .blog-title p {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    
+}
+.my-purchase-style .purchase-blog-contact ,.my-purchase-style .purchase-blog-order  {
+    font-size: 1.2em;
+    border: 1px solid #e8eaee;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display:grid;
+    grid-gap: 3px;
+}
+.my-purchase-style .purchase-blog-contact .grid-columns-2fr {
+    display: grid;
+    grid-template-columns: 35% 65%; 
+}
+.my-purchase-style .purchase-blog-contact .grid-columns-2fr .title {
+    margin: auto 0px;
+    text-align: left;
+    font-weight:bold;
+    font-size:1.2em;
+}
+.my-purchase-style .purchase-blog-order {
+    padding: unset;
+}
+
+.my-purchase-style .purchase-blog-order .head-order {
+    background: #172c45;
+    color: white;
+}
+.my-purchase-style .purchase-blog-order .head-order .detail_phone {
+    display: grid;
+    grid-template-columns: 28% 37% 37%;
+    padding: 8px 5px;
+}
+
+.my-purchase-style .purchase-blog-order .body-order {
+  
+}
+.my-purchase-style .purchase-blog-order .body-order .dataShowORDER {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 5px; 
+    border-top: unset;
+    padding: 10px 6px;
+}
+.my-purchase-style .purchase-blog-order .body-order .dataShowORDER .detail_EMS {
+    display: grid;
+    grid-template-columns: 24% 37% 35%;
+    grid-gap:2%;
+    position: relative;
+}
+.my-purchase-style .purchase-blog-order .body-order .dataShowORDER .detail_EMS  .body-details {
+    position: relative;
+}
+.my-purchase-style .purchase-blog-order .body-order .dataShowORDER .detail_EMS  .body-details .discount {
+    position: absolute;
+    border: 1px solid #ee94a1;
+    right: -12px;
+    top: -3px;
+    color: white;
+    font-size: 0.8em;
+    background: red;
+    width: 30px;
+    border-radius: 4px;
+}
+.my-purchase-style .purchase-blog-order .body-order .dataShowORDER .detail_EMS  .body-details .discount input {
+    width: 22px;
+    color: white;
+    background: unset;
+    border: unset;
+}
+.my-purchase-style .purchase-blog-order .body-order .dataShowORDER .detail_EMS  .body-details .discount i  {
+    color: white;
+    top: 3%;
+    position: absolute;
+    right:2px;
+}
+
+/* .my-purchase-style .purchase-blog-order .body-order .dataShowORDER .detail_EMS  .body-details .discount:hover i {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    cursor: pointer;
+} */
+
+.my-purchase-style .purchase-blog-order .body-order .dataShowORDER .detail_EMS  .body-details .discount input[type=number]::-webkit-inner-spin-button, 
+.my-purchase-style .purchase-blog-order .body-order .dataShowORDER .detail_EMS  .body-details .discount input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.my-purchase-style .purchase-blog-order .body-order .dataShowORDER .detail_EMS input.txt_price {
+    text-align: end;
+    padding-right:20px;
+}   
+
+.purchasepage .box-head-action {
+    display: flex;
+    justify-content: space-between;
+} 
+@media only screen and (max-width: 450px){
+    .purchasepage .box-head-action span:first-child { 
+        margin:auto;
+    }
+
+    div.dataTables_wrapper div.dataTables_filter label {
+        width:100%;
+        
+    }
+    div.dataTables_wrapper div.dataTables_length label {
+        width: 100%;
+        
+    }
+}
+
+.purchasepage .box-head-action .date_purchase {
+    max-width: 200px;
+}
+ 
+.my-purchase-style .purchase-blog  .body-datedeliver {
+    display: grid;
+    grid-template-columns: 47% 53%;
+}
+
+.my-purchase-style .purchase-blog  .body-datedeliver .total-price {
+    text-align: end;
+    margin: auto 0px;
+    border: 1px solid #d6dae1;
+    padding: 6px;
+    margin-right: 5px;
+    height: 100%;
+    font-size: 1.3em;
+}
+.my-purchase-style .purchase-blog  .body-datedeliver .total-price  span.total-price-box {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    text-align: center;
+}
+.my-purchase-style .purchase-blog  .body-datedeliver .date_deliver {
+    border: 1px solid #d6dae1; 
+}
+.my-purchase-style .purchase-blog  .body-datedeliver .date_deliver .btnSwitchDelivery  {
+    display: flex;
+    padding: 4px 5px;
+} 
+.my-purchase-style .purchase-blog  .body-datedeliver .date_deliver .btnSwitchDelivery span.switch-title  {
+    height: fit-content;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.my-purchase-style .switch-btn.btnSwitchDelivery .toggle-switch {
+    margin: auto;
+    width:77px;
+    cursor: pointer;
+}
+.my-purchase-style .switch-btn.btnSwitchDelivery .toggle-switch:before {
+    content: "Pending";
+    width: unset;
+    left: 35%;
+}
+.my-purchase-style .switch-btn.btnSwitchDelivery .toggle-switch.ts-active:before {
+    content: "Success";
+    left: 10% !important;
+    color: white; 
+}
+.my-purchase-style .switch-btn.btnSwitchDelivery .toggle-switch.ts-active > .switch {
+    left: 69% !important;
+}
+ 
+ 
+  /* Create a custom checkbox */
+.my-purchase-style .purchase-blog .check-box-trans {
+    display:flex;
+    position: relative;
+    margin-top:10px;  
+    width: fit-content;
+    padding-left: 20px;
+    height: 25px;
+}
+.my-purchase-style .purchase-blog .check-box-trans label {
+    margin:auto;
+    font-size: 1.5em;
+    width: fit-content;
+}
+.my-purchase-style .purchase-blog .check-box-trans label input {
+    display:none;
+}
+.my-purchase-style .purchase-blog .check-box-trans  .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border: 1px solid #d2d6de;
+  }
+  
+  /* On mouse-over, add a grey background color */
+.my-purchase-style .purchase-blog .check-box-trans  .container:hover input ~ .checkmark {
+	background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+.my-purchase-style .purchase-blog .check-box-trans  .container input:checked ~ .checkmark {
+	background-color: #dd0000;
+}
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+.my-purchase-style .purchase-blog .check-box-trans  .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  /* Show the checkmark when checked */
+.my-purchase-style .purchase-blog .check-box-trans  .container input:checked ~ .checkmark:after {
+	display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+.my-purchase-style .purchase-blog .check-box-trans  .container .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 13px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+  }
+
+.page_purchaseOrderData .swal2-actions  {
+    padding: 1.25em;
+    padding-top: unset;
+    margin:unset;
+}
+.page_purchaseOrderData .swal2-actions button {
+    width: 100%;
+    font-size:1.2em;
+
+}
+.page_purchaseOrderData .swal2-actions button.swal2-confirm  {
+    /* background: #3f3f3f; */
+}
+
+.page_purchaseOrderData  .detail_EMS.empty .form-control {
+    border-color:red;
+    color:red;
+}
+
+.page_purchaseOrderData  i.btn-del-soldout {
+    position: absolute;
+    top: 32%;
+    left: -4%;
+    color: red;
+    cursor:pointer;
+}
+
+.page_purchaseOrderData .content-header.btn-action {
+    display: flex;
+    justify-content: space-between;
+}
+.page_purchaseOrderData .content-header.btn-action .btn:hover {
+    background: #0088da;
+    color:white;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+.page_purchaseOrderData .add-required {
+    border:2px solid red
+}
+.page_purchaseOrderData .border-success {
+    border: 1px solid rgb(130 253 130);
+    box-shadow: 0 0 5px rgb(130 253 130);
+    background: white;
+}
+
+.page_purchaseOrderData .border-success-response {
+    border: 1px solid rgb(193 255 193 / 80%);
+    box-shadow: 0 0 5px rgb(130 253 130 / 62%);
+}
+
+.page_purchaseOrderData  .border-danger-response {
+    border: 1px solid rgb(255 193 193 / 80%);
+    box-shadow: 0 0 5px rgb(253 130 130 / 62%);
+}
+
+.page_purchaseOrderData .service-charge input::-webkit-outer-spin-button,
+.page_purchaseOrderData .service-charge input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.page_purchaseOrderData .service-charge input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.page_purchaseOrderData .my-purchase-style .swal2-modal, .page_purchaseOrderData .my-purchase-style.edit .swal2-modal {
+    position: relative;
+}
+
+.page_purchaseOrderData .my-purchase-style .swal2-content .swal2-checkbox ,.page_purchaseOrderData .my-purchase-style.edit .swal2-content .swal2-checkbox {
+    display: none!important;
+}
+.page_purchaseOrderData .my-purchase-style .swal2-content div#swal2-content .swal2-input,.page_purchaseOrderData .my-purchase-style.edit .swal2-content div#swal2-content .swal2-input {
+    display: flex!important;
+ }
+
+.page_purchaseOrderData .my-purchase-style #swal2-validation-message {
+    position: absolute;
+    right: 4%;
+    top: 252px;
+    font-weight: bold;
+    font-size: 1em;
+    width: 62%;
+    border: 1px solid red;
+} 
+.page_purchaseOrderData .my-purchase-style.edit #swal2-validation-message {
+    top: 284px;
+    width: 92%;
+    font-weight: 400;
+    color:red;
+}
+.page_purchaseOrderData .my-purchase-style #swal2-validation-message:before {
+    margin:unset;
+    margin-right:5px;
+}
+.page_purchaseOrderData .my-purchase-style.edit #swal2-validation-message:before {
+    margin:5px;
+}
+
+
+.my-purchase-style .swal2-content {
+    padding: 0px;
+}
+.my-purchase-style  .swal2-close {
+    right:5px;
+    top:5px;
+}

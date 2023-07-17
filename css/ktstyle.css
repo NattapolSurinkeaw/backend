@@ -1,0 +1,224 @@
+.unslc-txt {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */   
+}
+
+.toggle-switch {
+    position: relative;
+    height: 25px;
+    width: 60px;
+    background: #ff2b56;
+    border-radius: 20px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .toggle-switch .switch {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    cursor: pointer;
+    left: 5%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .toggle-switch:before {
+    font-family: Monterrat;
+    content: "OFF";
+    width: 100%;
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 45%;
+    color: white;
+  }
+  .toggle-switch.inTables:before { 
+      width: unset;  
+  }
+  
+  .ts-active {
+    background-color: #00d1b2  !important;
+  }
+  
+  .ts-active > .switch {
+    left: 60% !important;
+  }
+  
+  .ts-active:before {
+    content: "ON";
+    left: 10% !important;
+    color: white;
+  }
+
+.kt\:box-shadow{
+  box-shadow: 0 0 10px rgba(0,0,0,0.2) !important;
+  border-radius: 5px !important;
+}
+.kt\:box-header-border-radius{
+  border-radius: 5px 5px 0 0 !important;
+}
+
+
+.kt-checkbox{
+  position: relative;
+  /* background-color: steelblue; */
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+  top: 5px;
+}
+
+.kt-checkbox.checked:after{
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 14px;
+  top: 0px;
+  left: 5px;
+  border: solid #ff2b56;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+
+#purchaseOrderData span.notify_number { 
+  position: absolute;
+  right: 2%;
+  margin-top: -1px;
+  font-size: 1.2em;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  float: right;
+  margin-right: 6px;
+}
+#purchaseOrderData.notify span {
+  color: #FF5722 !important;
+}
+
+.color-tab {
+  background: rgb(196, 159, 78);
+}
+
+.page_contact_sel .img-previews img {
+  width:100%;
+}
+.page_contact_sel .blog-preview-add .preview-img {
+  width:100%;
+}
+.page_contact_sel  #image-preview {
+  width: 190px;
+}
+
+ 
+
+.main-sidebar .slimScrollDiv .user-panel img {
+  background: white;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    .page_contents .categorybox-controls {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.reviewspage .box-head-action {
+  display: flex;
+  justify-content: space-between;
+}
+.reviewspage .box-head-action span {
+ margin: auto 0px;
+}
+
+.reviewspage .btn-flex  {
+  display:flex !important;
+  justify-content: center;
+}
+.reviewspage .btn-flex a {
+ margin: 0px 1px;
+}
+
+
+
+ 
+.page_contact_sel .switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin: 0 1rem;
+}
+
+
+.page_contact_sel .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.page_contact_sel .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.page_contact_sel .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.page_contact_sel input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.page_contact_sel  input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+
+  .page_contact_sel  input:checked + .slider:before {
+    -webkit-transform: translateX(17px);
+    -ms-transform: translateX(17px);
+    transform: translateX(17px);
+}
+
+/* Rounded sliders */
+.page_contact_sel  .slider.round {
+  border-radius: 34px;
+}
+
+.page_contact_sel .slider.round:before {
+  border-radius: 50%;
+}
+  

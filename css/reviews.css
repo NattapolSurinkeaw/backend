@@ -1,0 +1,112 @@
+.page_reviews .box-head-action {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.page_reviews .btn-center {
+    text-align: center;
+}
+.page_reviews label.swal2-checkbox {
+    display:none !important;
+}
+
+.page_reviews .cate-blog-icon {
+
+}
+.page_reviews #image-preview {
+    margin: auto;
+}
+.page_reviews .txt_abbrev {
+    width:150px;
+}
+.page_reviews .btn-center a {
+    width: 80px;
+    margin: 3px 0px;
+}
+.page_reviews .headTitle-prednumb {
+    margin:auto 0px;
+}
+
+.page_reviews .edit_background_color {
+    margin-bottom: 10px;
+    color: white;
+    background: #2a4054;
+}
+
+.page_reviews .edit_background_color i {
+    color: #6ac7ff;
+    padding-right:5px;
+}
+
+.page_reviews  .addCategoryNumb:hover, .page_reviews  .addCategoryNumb:focus {
+    color:white;
+}
+
+
+.page_reviews #predicts-cate-tables.inactive {
+    display: none;
+}
+
+.page_reviews #predicts-numb-tables.inactive {
+    display: none;
+}
+
+.page_reviews .btn-back {
+    color:white;
+}
+.page_reviews .btn-back i { 
+    margin: auto 3px;
+}
+.page_reviews .btn-back.active {
+    border:1px solid #2a4054;
+    background: #2a4054;
+    border-radius: 4px;
+    display: flex;
+    margin: auto 0px;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+.page_reviews .btn-back.active:hover {
+    border: 1px solid #50dada;
+    background: #50dada;
+}
+.page_reviews .btn-back.active:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(0.5px);
+}
+
+.page_reviews .swal-numb textarea {
+    height: 90px;
+}
+.page_reviews #swal2-title { 
+    font-size: 1.5em;
+}
+.page_reviews .title-numb {
+    text-align: start;
+    font-weight: bold;
+}
+.page_reviews .failed {
+    border: 2px solid red;
+}
+.page_reviews .swal2-validation-message {
+    font-weight: bold;
+}
+
+.btn-table-add:hover, .btn-table-add:focus {
+    color:white; 
+    border: 1px solid #80cfff;
+}
+.btn-table-add:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(0.5px);
+}
+
+.page_reviews textarea.txt_desc {
+    height: 200px;
+    padding: 7px 10px;
+}
+
+.page_reviews  .btn-flex a {
+    margin-right: 2px;
+    margin-left: 2px;
+}
